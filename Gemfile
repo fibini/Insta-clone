@@ -42,6 +42,13 @@ gem "stimulus-rails"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
+gem 'carrierwave', '~> 0.11.2'
+gem 'ovirt-engine-sdk', '~> 4.4', '>= 4.4.1'
+gem 'fog-ovirt', '~> 2.0', '>= 2.0.2'
+gem 'fog', '~> 2.3'
+gem 'mini_magick', '~> 4.12'
+gem 'figaro', '~> 1.2'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
